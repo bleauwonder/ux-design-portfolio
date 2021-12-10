@@ -1,0 +1,86 @@
+.toolbar {
+    background-color: transparent;
+    z-index: 100;
+    position: fixed;
+    position: -webkit-sticky;
+    top: 0;
+  }
+  
+  ::ng-deep .mat-menu-panel {
+    height: 600px;
+    max-width: unset !important;
+    width: 300px;
+    @media only screen and (min-width: 500px) {
+      width: 500px;
+    }
+    @media only screen and (min-width: 800px) {
+      width: 800px;
+    }
+    background-image: linear-gradient(0deg, rgba(0, 208, 239, 1) 10%, rgba(0, 180, 211, 1) 20%, rgba(0, 153, 183, 1) 30%, rgba(0, 127, 156, 1) 40%, rgba(0, 101, 130, 1) 50%, rgba(0, 77, 105, 1) 60%, rgba(0, 53, 80, 1) 70%, rgba(0, 34, 57, 1) 80%, rgba(0, 2, 36, 1) 90%, rgba(0, 0, 11, 1) 100%);
+  }
+  
+  .mat-toolbar-row {
+    width: 100%;
+    @media only screen and (min-width: 400px) {
+      width: 90%;
+    }
+  }
+  
+  .mat-menu-item {
+    font-family: 'Special Elite', cursive;
+    font-size: 24px;
+    @media only screen and (min-width: 500px) {
+      font-size: 42px;
+    }
+    text-align: center;
+    padding: 20px 0;
+    height: 72px;
+  }
+  
+  .menu-icon {
+    padding: 0 14px;
+    cursor: pointer;
+  }
+  
+  .mat-icon {
+    background: -moz-linear-gradient(top, #00D0EF 0%, #527A80 100%);
+    background: -webkit-linear-gradient(top, #00D0EF 0%, #527A80 100%);
+    background: linear-gradient(to bottom, #00D0EF 0%, #527A80 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    height: 60px;
+    width: 60px
+  }
+  
+  .social-links {
+    margin: 5px 5px 5px 15px;
+    height: 30px;
+    width: 30px;
+    @media only screen and (min-width: 500px) {
+      height: 45px;
+      width: 45px;
+    }
+    img {
+      margin: 0 5px;
+      height: 30px;
+      width: 30px;
+    }
+  }
+  
+  .logo {
+    height: 90%;
+    width: 10%;
+  }
+    
+  .spacer {
+    flex: 1 1 auto;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+    

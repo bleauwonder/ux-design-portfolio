@@ -1,0 +1,58 @@
+<mat-toolbar class="toolbar">
+    <mat-toolbar-row>
+      <mat-icon
+        class="menu-icon"
+        aria-hidden="false"
+        aria-label="menu icon"
+        [matMenuTriggerFor]="menu"
+        >menu</mat-icon
+      >
+      <div class="social-links">
+        <a href="https://www.youtube.com/user/ElyzaBleau" target="_blank">
+          <img src="../assets/img/youtube-square.svg" />
+        </a>
+        <a href="https://www.instagram.com/elyzableau/" target="_blank">
+          <img src="../assets/img/instagram-fill.svg" />
+        </a>
+        <a href="https://www.facebook.com/elyzableaumusic" target="_blank">
+          <img src="../assets/img/facebook-square.svg" />
+        </a>
+      </div>
+      <mat-menu #menu>
+        <button mat-menu-item routerLink="/home" routerLinkActive="active">
+          Home
+        </button>
+        <button
+          mat-menu-item
+          href="javascript:void(0)"
+          onclick="ml_webform_4267936('show')"
+        >
+          Join Elyza's Bungalow
+        </button>
+        <a mat-menu-item href="https://ffm.to/elyzableau" target="_blank">
+          Stream
+        </a>
+        <button mat-menu-item routerLink="/videos" routerLinkActive="active">
+          Videos
+        </button>
+        <a mat-menu-item href="https://elyza-bleau.square.site/" target="_blank">
+          Merch
+        </a>
+        <button mat-menu-item routerLink="/photos" routerLinkActive="active">
+          Gallery
+        </button>
+        <button mat-menu-item routerLink="/about" routerLinkActive="active">
+          About
+        </button>
+        <button mat-menu-item routerLink="/epk" routerLinkActive="active">
+          EPK
+        </button>
+        <button mat-menu-item routerLink="/contact" routerLinkActive="active">
+          Contact
+        </button>
+      </mat-menu>
+      <span class="spacer"></span>
+      <img class="name-logo" src="https://res.cloudinary.com/dadqp2oia/image/upload/v1629672279/Music%20Website/Logos/ElyzaBleau-Name-Logo_ietm8d.png" />
+    </mat-toolbar-row>
+  </mat-toolbar>
+  
