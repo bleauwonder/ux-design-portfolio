@@ -16,9 +16,9 @@
   }
   
   .glitch {
-    // color: #2288c6;
-    // font-family: 'Special Elite', cursive;
-    // font-size: 110px;
+    color: #2288c6;
+    font-family: 'Special Elite', cursive;
+    font-size: 110px;
     position: relative;
     background: rgba(189, 195, 199, 0.8);
     box-shadow: 10px 10px 5px rgb(140, 143, 145, 0.8);
@@ -119,13 +119,13 @@
   }
   
   // Keep in case of swapping logo png with text
-  // .glow {
-  //   @extend .glitch;
-  //   text-shadow: 0 0 1000px rgb(223, 191, 191);
-  //   color: transparent;
-  //   position: absolute;
-  //   top: 0;
-  // }
+  .glow {
+    @extend .glitch;
+    text-shadow: 0 0 1000px rgb(223, 191, 191);
+    color: transparent;
+    position: absolute;
+    top: 0;
+  }
   
   .subtitle {
     position: absolute;
