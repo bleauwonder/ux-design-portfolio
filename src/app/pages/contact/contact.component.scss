@@ -1,0 +1,17 @@
+.space {
+    height: 100px;
+    width: 100px;
+    @media only screen and (min-width: 800px) {
+        height: 120px;
+        width: 200px;
+    }
+}
+
+.jarallax {
+    background-image: url(https://res.cloudinary.com/dadqp2oia/image/upload/v1629673789/Music%20Website/BG/tongues-out-beach_t2ux7e.png);
+    background-attachment: fixed; 
+    height: 1400px;
+    margin-top: -70px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

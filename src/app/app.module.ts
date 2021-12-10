@@ -9,6 +9,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { HeaderTitleComponent } from './home-cards/header-title/header-title.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { ContactCardComponent } from './home-cards/contact-card/contact-card.component';
+import { ContactPageCardComponent } from './page-cards/contact-page-card/contact-page-card.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ContactCardComponent } from './home-cards/contact-card/contact-card.com
     HomeComponent,
     HeaderTitleComponent,
     ContactComponent,
-    ContactCardComponent
+    ContactCardComponent,
+    ContactPageCardComponent
   ],
   imports: [
     BrowserModule,
